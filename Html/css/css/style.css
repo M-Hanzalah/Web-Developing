@@ -1,0 +1,58 @@
+
+.h1{
+    color: aqua;
+}
+.h3{
+    color: black;
+}
+#h1{
+    font-size: 40px;
+}
+.h3{
+    background: tan ;
+}
+/* .body{
+    /* background: lightblue; */
+    background: url(../images/pic.jpg);
+    background-repeat: no-repeat;
+    width: 100%;  */
+}
+.txt_form{
+    text-align: center;
+}
+.box{
+    background: red;
+    width: 200px;
+    height: 200px;
+    /* padding: 20px 40px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.label{
+    font-size: 22px;
+    color: cadetblue;
+}
+.input{
+    width: 200px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border-bottom: 1px solid #000 !important;
+    border-top: none;
+    border: none;
+    border-radius: 0px;
+}
+.input:focus{
+    outline: none;
+}
+.btn_submit{
+    background: green;
+    color: #fff;
+    padding: 12px 30px;
+            
+}

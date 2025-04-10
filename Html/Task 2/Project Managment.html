@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Project Management</h1>
+        <form action="form.php">
+        <b>Project Name</b>
+        <input type="text" name="project name" id="project name" placeholder="Project Name"><br><br>
+        <b>Assigned to</b>
+        <select name="assigned to" id="assigned to">
+            <option value="Er Merry Petision">Er Merry Petision</option>
+            <option value="Jons Berry">Jons Berry</option>
+            <option value="Rickle Bay">Rickle Bay</option>
+        </select><br><br>
+        <b>Start Date</b>
+        <input type="date" name="start date" id="start date"><br><br>
+        <b>End Date</b>
+        <input type="date" name="end date" id="end date"><br><br>
+        <b>Priority</b>
+        <label for="Prioritya">
+            <input type="radio" name="Section" id="Prioritya"> High
+        </label>
+        <label for="Priorityb">
+            <input type="radio" name="Section" id="Priorityb"> Average
+        </label>
+        <label for="Priorityc">
+            <input type="radio" name="Section" id="Priorityc"> Low
+        </label><br><br>
+        <b>Description</b>
+        <textarea name="description" id="discription" rows="3" cols="10"></textarea><br><br>
+        <button class="submit">
+            submit
+        </button>
+    </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+h1{
+    background-color: rgb(126, 121, 121);
+    color: whitesmoke;
+}
+*{
+    background-color: gray;
+    color: rgb(245, 235, 235);
+}
+.submit{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+}
+#project name{
+    border: none;
+    padding: 12px;
+    margin: 06px;
+}
+#discription{
+    align-self: auto;
+}
+.body{
+    background-image: url(pic.jpg);
+}
